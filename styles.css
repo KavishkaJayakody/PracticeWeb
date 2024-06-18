@@ -1,0 +1,32 @@
+html {
+    background-image: url(BG.JPG);
+    background-size: cover;
+    background-attachment:scroll;
+p {
+    color: rgb(222, 222, 224);
+    font-size: 20px;
+    transition: font-size 1s;
+}
+p:hover {
+    color: rgb(222, 222, 224);
+    font-size: 40px;
+
+}
+#name {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pics {
+    width: auto;
+    height: 400px;
+    transition: width 1s, height 1s;
+
+}
+.pics:hover {
+    width: auto;
+    height: 480px;
+
+    }
+td {
+    height: 500px;
+}
